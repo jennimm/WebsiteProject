@@ -1,6 +1,36 @@
-.PageSelection{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.indexBoxes{
+    position: relative;
+    text-align: center;
+    color: black;
 }
+
+
+.PageSelectionFirst{
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    height: 100%;
+    width: 100%;
+  }
+  
+.PageSelectionSecond{
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    height: 100%;
+    width: 100%;
+  }
+
+.PageSelectionThird{
+    position: absolute;
+    left: 45%;
+    top: 80%;
+    height: 100%;
+    width: 100%;
+  }
+  
+.indexColumn {
+    float: left;
+    width: 100px;
+    padding: 5px;
+  }
