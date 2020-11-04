@@ -1,4 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel=stylesheet src="imageryCss.css"/>
+    <title>Bootstrap Website Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="ImageryCss.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <stlye>img {
+        float: right
+    </stlye>
 </head>
+<body>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <h1>Computers In Medical Imagery</h1>
+      </div>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                  
+            </button>
+            <a class="navbar-brand" href="#">Menu:</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="extraPage.html">Fun Facts</a></li>
+              <li><a href="pageTwo.html">Page 2</a></li>
+              <li><a href="surgery.html">Computers in Surgery</a></li>
+              <li class="active"><a href="Imagery.html">Medical Imagery</a></li> 
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class=container>
+          <h2>Medical Imagery and Computer Science</h2>
+          <p style="font-family:verdana;">Medical imagery is an important part of diagnosis and treatment. Magnetic resonance imaging (MRI),
+            computed tomography scan (CT scan) and ultrasound are three available systems. Ultrasound uses a device called a transducer to produce an image of the internal organ.</p>
+            <img src="Capture.PNG" alt="Ultrasound transducer and CPU diagram" width=250px height =300px class=centre>
+          <p style="font-family:verdana;"> There is no doubt that the advances in
+            the quality and analysis of medical imagery are giving excellent results, but they can be computationally
+            intensive and expensive and need trained personnel for interpretation. One recent and useful
+            development is the extension of ultrasound 3D imaging to augmented reality imaging.
+            Research into the use of augmented reality imaging, points towards revolutionary changes in medical
+            practice for diagnosis and for surgery; it provides simulations for medical students, it increases accuracy
+            in the operating room and it offers valuable assistance in telemedicine. </p>
+            <a href="https://vsee.com/what-is-telemedicine/">For a definition of telemedicine click here!</a>
+      </div>
+      <div class=container>
+          <p style="font-family:verdana;">Image segmentation is considered the most essential medical imaging process as it extracts the region of interest (ROI) through a semiautomatic or automatic process. It divides an image into areas based on a specified description, such as segmenting body organs/tissues in the medical applications for border detection, tumor detection/segmentation, and mass detection.</p>
+          <img src="Segmentation.jpg" algin="left" alt="An X-Ray of the spine" width=150px height=300px class="centre">
+          <p style="font-family:verdana;">Traditional machine learning methods have achieved certain beneficial effects in medical image segmentation, but they have problems such as low classification accuracy and poor robustness.</p>
+        </div>
 
+      <div class="jumbotron text-center" style="margin-bottom:0">
+        <p style="font-size:90%;">Created By: </p>
+        <p style="font-size:90%;">GitHub: </p>
+        <p style="font-size:90%;">LinkedIn: </p>
+        </p>
+      </div>
+</body>
+</html>

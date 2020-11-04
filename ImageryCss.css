@@ -1,0 +1,14 @@
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .image{
+      float:left
+  }
+
+  .text{
+      float:right
+  }
